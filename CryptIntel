@@ -1,0 +1,9 @@
+#!/bin/bash
+cd crawlers
+./coinScape.sh
+./NameScrape.sh
+./PriceScrape.sh
+./VolScrape.sh
+./CapScrape.sh
+
+#WANTED: garbage collector
