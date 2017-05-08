@@ -12,7 +12,9 @@ To install set .sh files in crawlers to executable, as well as CryptIntel and cs
 sudo vim /etc/crontab
 ```
 ## TODO:
-- Garbage collector.
+- Implement garbage collector.
 - FIX price bug.
 - Create page and script to query database.
 - Create method to calculate % change from one entry to the next.
+- Implement trend analysis using numpy module.
+- Implement trend graphing with MatPlotLib module.
