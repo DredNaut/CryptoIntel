@@ -86,7 +86,7 @@ write_to_file()
     echo "Name,Price,Volume,Market Cap" >> $file
 
     COUNTER=0
-    while [ $COUNTER -lt 20 ]; do
+    while [ $COUNTER -lt 85 ]; do
         echo "${ARRAY1[${COUNTER}]},${ARRAY2[${COUNTER}]},${ARRAY3[${COUNTER}]},${ARRAY4[${COUNTER}]}, $(date +%Y-%m-%d) $(date +%H:%M)" >> $file
         let COUNTER=COUNTER+1
     done
