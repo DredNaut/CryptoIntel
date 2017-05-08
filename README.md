@@ -30,5 +30,4 @@ python capQ.py <coin_name>
 ```
 ## TODO:
 - Create method to calculate % change from one entry to the next.
-- Implement trend analysis using numpy module.
-- Implement trend graphing with MatPlotLib module.
+- Improve current trend analysis using numpy module.
