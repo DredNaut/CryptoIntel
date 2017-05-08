@@ -3,4 +3,10 @@ A program witten in bash script which scrapes coinmarktetcap.com and compiles th
 
 To install set .sh files in crawlers to executable, as well as CryptIntel and csvGen.sh
 
-./CryptIntel //To run
+To run
+'''
+./CryptIntel 
+
+To edit crontab:
+'''
+sudo vim /etc/crontab
