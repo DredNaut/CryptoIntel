@@ -16,7 +16,7 @@ done
 
 exec 10<&-
 
-regex="class=\"currency-logo\" alt=\"[A-Za-z]*\""
+regex="class=\"currency-logo\" alt=\"[A-Za-z ]*\""
 
 ELEMENTS=${#ARRAY[@]}
 firstline=0
@@ -35,5 +35,7 @@ done
 #----------------------------------------------
 
 sed -i 's/\"/ /g' NameMatch
-awk '{print $4}' NameMatch > ../results/Name
+sed -i 's/ //g' NameMatch
+awk -F "=" '{print $3}' NameMatch > ../results/Name
+#awk '{print $4}' NameMatch > Name
 

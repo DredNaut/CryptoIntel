@@ -1,84 +1,99 @@
-class= currency-logo  alt= Bitcoin 
-class= currency-logo  alt= Ethereum 
-class= currency-logo  alt= Ripple 
-class= currency-logo  alt= Litecoin 
-class= currency-logo  alt= NEM 
-class= currency-logo  alt= Dash 
-class= currency-logo  alt= Monero 
-class= currency-logo  alt= Augur 
-class= currency-logo  alt= Dogecoin 
-class= currency-logo  alt= MaidSafeCoin 
-class= currency-logo  alt= Zcash 
-class= currency-logo  alt= Steem 
-class= currency-logo  alt= Stratis 
-class= currency-logo  alt= BitShares 
-class= currency-logo  alt= Factom 
-class= currency-logo  alt= Decred 
-class= currency-logo  alt= Waves 
-class= currency-logo  alt= PIVX 
-class= currency-logo  alt= DigixDAO 
-class= currency-logo  alt= SingularDTV 
-class= currency-logo  alt= Lisk 
-class= currency-logo  alt= Ardor 
-class= currency-logo  alt= Siacoin 
-class= currency-logo  alt= GameCredits 
-class= currency-logo  alt= Tether 
-class= currency-logo  alt= Peercoin 
-class= currency-logo  alt= BitConnect 
-class= currency-logo  alt= Nxt 
-class= currency-logo  alt= Round 
-class= currency-logo  alt= Iconomi 
-class= currency-logo  alt= Byteball 
-class= currency-logo  alt= SysCoin 
-class= currency-logo  alt= Namecoin 
-class= currency-logo  alt= Komodo 
-class= currency-logo  alt= Emercoin 
-class= currency-logo  alt= AntShares 
-class= currency-logo  alt= Nexus 
-class= currency-logo  alt= Melon 
-class= currency-logo  alt= Ark 
-class= currency-logo  alt= Lykke 
-class= currency-logo  alt= BitcoinDark 
-class= currency-logo  alt= Xaurum 
-class= currency-logo  alt= Counterparty 
-class= currency-logo  alt= Wings 
-class= currency-logo  alt= WeTrust 
-class= currency-logo  alt= YbCoin 
-class= currency-logo  alt= BlackCoin 
-class= currency-logo  alt= Bitcrystals 
-class= currency-logo  alt= Gulden 
-class= currency-logo  alt= DigiByte 
-class= currency-logo  alt= ZCoin 
-class= currency-logo  alt= Chronobank 
-class= currency-logo  alt= Matchpool 
-class= currency-logo  alt= PotCoin 
-class= currency-logo  alt= Synereo 
-class= currency-logo  alt= ZClassic 
-class= currency-logo  alt= Ubiq 
-class= currency-logo  alt= Skycoin 
-class= currency-logo  alt= Vertcoin 
-class= currency-logo  alt= Clams 
-class= currency-logo  alt= Creditbit 
-class= currency-logo  alt= BitBay 
-class= currency-logo  alt= EarthCoin 
-class= currency-logo  alt= Bankcoin 
-class= currency-logo  alt= Crown 
-class= currency-logo  alt= Edgeless 
-class= currency-logo  alt= Novacoin 
-class= currency-logo  alt= Rubycoin 
-class= currency-logo  alt= Nexium 
-class= currency-logo  alt= vSlice 
-class= currency-logo  alt= ION 
-class= currency-logo  alt= Expanse 
-class= currency-logo  alt= VPNCoin 
-class= currency-logo  alt= GridCoin 
-class= currency-logo  alt= MonetaryUnit 
-class= currency-logo  alt= Omni 
-class= currency-logo  alt= Blocknet 
-class= currency-logo  alt= Primecoin 
-class= currency-logo  alt= Asch 
-class= currency-logo  alt= Lunyr 
-class= currency-logo  alt= Radium 
-class= currency-logo  alt= Burst 
-class= currency-logo  alt= FedoraCoin 
-class= currency-logo  alt= MonaCoin 
+class=currency-logoalt=Bitcoin
+class=currency-logoalt=Ripple
+class=currency-logoalt=Ethereum
+class=currency-logoalt=Litecoin
+class=currency-logoalt=NEM
+class=currency-logoalt=Dash
+class=currency-logoalt=EthereumClassic
+class=currency-logoalt=StellarLumens
+class=currency-logoalt=Monero
+class=currency-logoalt=Golem
+class=currency-logoalt=Augur
+class=currency-logoalt=Steem
+class=currency-logoalt=Dogecoin
+class=currency-logoalt=MaidSafeCoin
+class=currency-logoalt=Gnosis
+class=currency-logoalt=Zcash
+class=currency-logoalt=Stratis
+class=currency-logoalt=BitShares
+class=currency-logoalt=Bytecoin
+class=currency-logoalt=Factom
+class=currency-logoalt=Decred
+class=currency-logoalt=DigixDAO
+class=currency-logoalt=Waves
+class=currency-logoalt=SingularDTV
+class=currency-logoalt=PIVX
+class=currency-logoalt=Ardor
+class=currency-logoalt=GameCredits
+class=currency-logoalt=Lisk
+class=currency-logoalt=Siacoin
+class=currency-logoalt=Tether
+class=currency-logoalt=Peercoin
+class=currency-logoalt=BitConnect
+class=currency-logoalt=Iconomi
+class=currency-logoalt=Nxt
+class=currency-logoalt=Byteball
+class=currency-logoalt=iExecRLC
+class=currency-logoalt=Round
+class=currency-logoalt=SysCoin
+class=currency-logoalt=Namecoin
+class=currency-logoalt=FirstBlood
+class=currency-logoalt=Emercoin
+class=currency-logoalt=StorjcoinX
+class=currency-logoalt=Komodo
+class=currency-logoalt=Counterparty
+class=currency-logoalt=AntShares
+class=currency-logoalt=Melon
+class=currency-logoalt=Ark
+class=currency-logoalt=Nexus
+class=currency-logoalt=Lykke
+class=currency-logoalt=Wings
+class=currency-logoalt=BitcoinDark
+class=currency-logoalt=Xaurum
+class=currency-logoalt=DigiByte
+class=currency-logoalt=YbCoin
+class=currency-logoalt=WeTrust
+class=currency-logoalt=NAVCoin
+class=currency-logoalt=Bitcrystals
+class=currency-logoalt=BlackCoin
+class=currency-logoalt=Synereo
+class=currency-logoalt=ZCoin
+class=currency-logoalt=Gulden
+class=currency-logoalt=SwarmCity
+class=currency-logoalt=Clams
+class=currency-logoalt=PotCoin
+class=currency-logoalt=Chronobank
+class=currency-logoalt=AgorasTokens
+class=currency-logoalt=Matchpool
+class=currency-logoalt=Vertcoin
+class=currency-logoalt=EarthCoin
+class=currency-logoalt=Ubiq
+class=currency-logoalt=Bankcoin
+class=currency-logoalt=BitBay
+class=currency-logoalt=ZClassic
+class=currency-logoalt=MonaCoin
+class=currency-logoalt=Creditbit
+class=currency-logoalt=LBRYCredits
+class=currency-logoalt=Rubycoin
+class=currency-logoalt=Edgeless
+class=currency-logoalt=Novacoin
+class=currency-logoalt=Blocknet
+class=currency-logoalt=Skycoin
+class=currency-logoalt=Crown
+class=currency-logoalt=Nexium
+class=currency-logoalt=VPNCoin
+class=currency-logoalt=Asch
+class=currency-logoalt=Primecoin
+class=currency-logoalt=GridCoin
+class=currency-logoalt=Expanse
+class=currency-logoalt=vSlice
+class=currency-logoalt=PascalCoin
+class=currency-logoalt=GlobalCurrencyReserve
+class=currency-logoalt=Burst
+class=currency-logoalt=MonetaryUnit
+class=currency-logoalt=ION
+class=currency-logoalt=Lunyr
+class=currency-logoalt=Radium
+class=currency-logoalt=Omni
+class=currency-logoalt=Viacoin
+class=currency-logoalt=WavesCommunityToken

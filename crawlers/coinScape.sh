@@ -26,7 +26,7 @@ done
 
 exec 10<&-
 
-regex="id-[a-zA-Z0-9]*\""
+regex="id-[a-zA-Z0-9 \-]*\""
 
 ELEMENTS=${#ARRAY[@]}
 firstline=0
