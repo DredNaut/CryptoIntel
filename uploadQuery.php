@@ -19,15 +19,6 @@ if (mysqli_connect_errno()) {
 
 $result = mysqli_query($con, $sql1);
 
-if(mysqli_affected_rows($con)==1){
-    $message="Success";
-} else {
-    $message="Failed to update: ";
-    $message.= mysqli_error($con);
-};
-
-echo $message;
-
 mysqli_close($con);
 
 ?>
