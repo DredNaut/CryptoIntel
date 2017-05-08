@@ -31,3 +31,4 @@ python capQ.py <coin_name>
 ## TODO:
 - Create method to calculate % change from one entry to the next.
 - Improve current trend analysis using numpy module.
+- Caluculate and graph RSI for a given coin, allow for multiple coins at once.
