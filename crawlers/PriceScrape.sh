@@ -34,6 +34,6 @@ done
 
 #--------------------------------------------
 
-awk -F ">" '{ print $2 }' PriceMatch > ../results/Price
-#awk -F ">" '{ print $2 }' PriceMatch > Price
+awk -F "$" '{ print $2 }' PriceMatch > ../results/Price
+#awk -F "$" '{ print $2 }' PriceMatch > Price
 echo Done

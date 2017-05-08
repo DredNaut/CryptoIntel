@@ -1,9 +1,15 @@
 #!/bin/bash
-cd crawlers
+cd /home/dredknaut/Programming/Bash/CryptIntel/crawlers
 ./coinScape.sh
 ./NameScrape.sh
 ./PriceScrape.sh
 ./VolScrape.sh
 ./CapScrape.sh
+cd ..
+./csvGen.sh
+php uploadQuery.php
 
-#WANTED: garbage collector
+#Run PHP script to LOAD DATA into file
+
+#WANTED: garbage collector 
+
