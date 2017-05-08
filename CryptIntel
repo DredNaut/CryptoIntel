@@ -5,6 +5,8 @@ cd /home/dredknaut/Programming/Bash/CryptIntel/crawlers
 ./PriceScrape.sh
 ./VolScrape.sh
 ./CapScrape.sh
+touch pot VolMatch NameMatch coinData lineMatch CapMatch PriceMatch
+rm pot VolMatch NameMatch coinData lineMatch CapMatch PriceMatch
 cd ..
 ./csvGen.sh
 php uploadQuery.php
