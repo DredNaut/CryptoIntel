@@ -38,10 +38,15 @@ A program witten in bash script which scrapes coinmarktetcap.com and compiles th
 3. You can automate this script using the crontab as explained below. 
 
 ## Automate using crontab:
+Modify to the frequency you would like and specify the absolute path to the executable script CryptIntel and uploadQuery.php for database automation.
 ```
 sudo vim /etc/crontab
 ```
-Then modify to the frequency you would like and specify the absolute path to the executable script CryptIntel and uploadQuery.php for database automation.
+Use the following format in crontab, with the specific frequency.
+```
+M H D W M Y
+0 * * * * * <username> <command>
+```
 
 ## Query Database
 ```
@@ -55,3 +60,5 @@ python ./analysis/capQ.py <coin_name>
 - Create method to calculate % change from one entry to the next.
 - Improve current trend analysis using numpy module.
 - Caluculate and graph RSI for a given coin, allow for multiple coins at once.
+- Implement a more user friendly support for setting up automation. (crontab and export path)
+- Create report of top price changes 24-h and volume changes 24-h.
