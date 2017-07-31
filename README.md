@@ -2,8 +2,11 @@
 A program witten in bash script which scrapes coinmarktetcap.com and compiles the data into a csv file, then uploads the data to a mysql database. You will also be able to use the python module matplotlib to plot the data from your database using the scripts in the analysis directory. Future updates will bring about automation and cryptocoin trend analysis. **STAY TUNED!** :shipit:
 
 ![csv](/assets/csv.png)
+Import into csv file.
 ![csv](/assets/db.png)
+Configure with mysql database.
 ![csv](/assets/plot.png)
+Plot data from database with python matplotlib.
 
 ## Installation
 
