@@ -16,7 +16,7 @@ done
 
 exec 10<&-
 
-regex="class=\"price\" data-usd=\"[0-9]*.[0-9e\-]*\" data-btc=\"[0-9]*.[0-9e\-]*\">.[0-9]*.[0-9]*"
+regex="class=\"price\" data-usd=\"[0-9]*.[0-9e\-]*\""
 
 ELEMENTS=${#ARRAY[@]}
 firstline=0
@@ -34,6 +34,6 @@ done
 
 #--------------------------------------------
 
-awk -F "$" '{ print $2 }' PriceMatch > ../results/Price
+awk -F '"' '{ print $4 }' PriceMatch > ../results/Price
 #awk -F "$" '{ print $2 }' PriceMatch > Price
 echo Done

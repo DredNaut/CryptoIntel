@@ -1,12 +1,12 @@
 #!/bin/bash
-cd /home/dredknaut/Programming/Bash/CryptIntel/crawlers
+cd ./crawlers/
 ./coinScape.sh
 ./NameScrape.sh
 ./PriceScrape.sh
 ./VolScrape.sh
 ./CapScrape.sh
 touch pot VolMatch NameMatch coinData lineMatch CapMatch PriceMatch
-rm pot VolMatch NameMatch coinData lineMatch CapMatch PriceMatch
+rm pot VolMatch NameMatch coinData lineMatch CapMatch
 cd ..
 ./csvGen.sh
 php uploadQuery.php

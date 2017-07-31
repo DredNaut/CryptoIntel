@@ -7,7 +7,7 @@
 #---------Coin Names---------------
 declare -a ARRAY1
 exec 10<&0
-fileName="/home/dredknaut/Programming/Bash/CryptIntel/results/Name"
+fileName="./results/Name"
 exec < $fileName
 
 let count=0
@@ -25,7 +25,7 @@ exec 10<&-
 #---------Coin Price---------------
 declare -a ARRAY2
 exec 10<&0
-fileName="/home/dredknaut/Programming/Bash/CryptIntel/results/Price"
+fileName="./results/Price"
 exec < $fileName
 
 let count=0
@@ -43,7 +43,7 @@ exec 10<&-
 #---------Coin Volume---------------
 declare -a ARRAY3
 exec 10<&0
-fileName="/home/dredknaut/Programming/Bash/CryptIntel/results/Volume"
+fileName="./results/Volume"
 exec < $fileName
 
 let count=0
@@ -61,7 +61,7 @@ exec 10<&-
 #---------Coin Market Cap---------------
 declare -a ARRAY4
 exec 10<&0
-fileName="/home/dredknaut/Programming/Bash/CryptIntel/results/MarketCap"
+fileName="./results/MarketCap"
 exec < $fileName
 
 let count=0
@@ -86,7 +86,7 @@ write_to_file()
     echo "Name,Price,Volume,Market Cap" >> $file
 
     COUNTER=0
-    while [ $COUNTER -lt 85 ]; do
+    while [ $COUNTER -lt 100 ]; do
         echo "${ARRAY1[${COUNTER}]},${ARRAY2[${COUNTER}]},${ARRAY3[${COUNTER}]},${ARRAY4[${COUNTER}]}, $(date +%Y-%m-%d) $(date +%H:%M)" >> $file
         let COUNTER=COUNTER+1
     done

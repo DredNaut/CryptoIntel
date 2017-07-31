@@ -16,7 +16,7 @@ done
 
 exec 10<&-
 
-regex="class=\"currency-logo\" alt=\"[A-Za-z ]*\""
+regex="class=\"currency-logo\" alt=\"[A-Za-z -- ]*\""
 
 ELEMENTS=${#ARRAY[@]}
 firstline=0
