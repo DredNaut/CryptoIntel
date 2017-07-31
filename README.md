@@ -3,6 +3,7 @@ A program witten in bash script which scrapes coinmarktetcap.com and compiles th
 
 ![csv](/assets/csv.png)
 ![csv](/assets/db.png)
+![csv](/assets/plot.png)
 
 ## Installation
 
